@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DublinGuide</string>
+
+    <string name="fragment_sights">Sights</string>
+    <string name="fragment_pubs">Pubs</string>
+    <string name="fragment_parks">Parks</string>
+    <string name="fragment_food">Food</string>
+
+    <string name="pub_doyles">Doyle\'s</string>
+    <string name="pub_doyles_address">9 College St, Dublin 2</string>
+
+</resources>
