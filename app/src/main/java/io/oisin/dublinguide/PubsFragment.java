@@ -27,10 +27,10 @@ public class PubsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Doyle\'s", "9 College St, Dublin 2", R.drawable.normie_central));
-        locations.add(new Location("Cassidy\'s", "42 Camden Street Lower, Dublin 2", R.drawable.normie_central));
-        locations.add(new Location("Three Tun Tavern", "1-5 Temple Road, Carysfort Avenue, Blackrock", R.drawable.normie_central));
-        locations.add(new Location("The Forty Foot", "The Pavilion Centre, Marine Rd, Dublin 18", R.drawable.normie_central));
+        locations.add(new Location(getString(R.string.pub1name), getString(R.string.pub1address), R.drawable.doyles));
+        locations.add(new Location(getString(R.string.pub2name), getString(R.string.pub2address), R.drawable.cassidy));
+        locations.add(new Location(getString(R.string.pub3name), getString(R.string.pub3address), R.drawable.threetuntavern));
+        locations.add(new Location(getString(R.string.pub4name), getString(R.string.pub4address), R.drawable.fortyfoot));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_pubs);
 

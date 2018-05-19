@@ -27,10 +27,10 @@ public class SightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Guinness Storehouse", "St James's Gate, Ushers, Dublin 8", R.drawable.normie_central));
-        locations.add(new Location("Book of Kells", "Trinity College, College Green, Dublin 2", R.drawable.normie_central));
-        locations.add(new Location("Kilmainham Gaol", "Kilmainham, Dublin 8, D08 RK28", R.drawable.normie_central));
-        locations.add(new Location("Dublin Castle", "Dame Street, Dublin 2", R.drawable.normie_central));
+        locations.add(new Location(getString(R.string.sight1name), getString(R.string.sight1address), R.drawable.guinness));
+        locations.add(new Location(getString(R.string.sight2name), getString(R.string.sight2address), R.drawable.kells));
+        locations.add(new Location(getString(R.string.sight3name), getString(R.string.sight3address), R.drawable.killmainham));
+        locations.add(new Location(getString(R.string.sight4name), getString(R.string.sight4address), R.drawable.castle));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_sights);
 

@@ -27,10 +27,10 @@ public class ParksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Phoenix Park", "Phoenix Park, Dublin 8", R.drawable.normie_central));
-        locations.add(new Location("St Stephen's Green", "St Stephen's Green, Dublin 2", R.drawable.normie_central));
-        locations.add(new Location("Botanic Gardens", "Glasnevin, Dublin 9", R.drawable.normie_central));
-        locations.add(new Location("Iveagh Gardens", "Clonmel St, Saint Kevin's, Dublin 2", R.drawable.normie_central));
+        locations.add(new Location(getString(R.string.park1name), getString(R.string.park1address), R.drawable.phoenix));
+        locations.add(new Location(getString(R.string.park2name), getString(R.string.park2address), R.drawable.stephensgreen));
+        locations.add(new Location(getString(R.string.park3name), getString(R.string.park3address), R.drawable.botanic));
+        locations.add(new Location(getString(R.string.park4name), getString(R.string.park4address), R.drawable.iveagh));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_parks);
 

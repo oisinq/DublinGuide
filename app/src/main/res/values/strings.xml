@@ -8,5 +8,37 @@
 
     <string name="pub_doyles">Doyle\'s</string>
     <string name="pub_doyles_address">9 College St, Dublin 2</string>
+    <string name="park1name">Phoenix Park</string>
+    <string name="park2name">St Stephen\'s Green</string>
+    <string name="park3name">Botanic Gardens</string>
+    <string name="park4name">Iveagh Gardens</string>
+    <string name="park1address">Phoenix Park, Dublin 8</string>
+    <string name="park2address">St Stephen\'s Green, Dublin 2</string>
+    <string name="park3address">Glasnevin, Dublin 9</string>
+    <string name="park4address">Clonmel St, Saint Kevin\'s, Dublin 2</string>
+    <string name="pub1name">Doyle\'s</string>
+    <string name="pub2name">Cassidy\'s</string>
+    <string name="pub3name">Three Tun Tavern</string>
+    <string name="pub4name">The Forty Foot</string>
+    <string name="pub1address">9 College St, Dublin 2</string>
+    <string name="pub2address">42 Camden Street Lower, Dublin 2</string>
+    <string name="pub3address">1 Temple Road, Carysfort Avenue, Blackrock</string>
+    <string name="pub4address">The Pavilion Centre, Marine Rd, Dublin 18</string>
+    <string name="sight1name">Guinness Storehouse</string>
+    <string name="sight2name">Book of Kells</string>
+    <string name="sight3name">Kilmainham Gaol</string>
+    <string name="sight4name">Dublin Castle</string>
+    <string name="sight1address">St James\'s Gate, Ushers, Dublin 8</string>
+    <string name="sight2address">Trinity College, College Green, Dublin 2</string>
+    <string name="sight3address">Kilmainham, Dublin 8, D08 RK28</string>
+    <string name="sight4address">Dame Street, Dublin 2</string>
+    <string name="food1name">Boojum</string>
+    <string name="food2name">Bunsen</string>
+    <string name="food3name">Zambrero</string>
+    <string name="food4name">Nando\'s</string>
+    <string name="food1address">6 Kevin Street Lower, Dublin 8</string>
+    <string name="food2address">36 Wexford St, Dublin 2</string>
+    <string name="food3address">The Parnell Centre, Parnell St, Rotunda, Dublin 1</string>
+    <string name="food4address">12 St Andrew\'s St, Dublin 2</string>
 
 </resources>

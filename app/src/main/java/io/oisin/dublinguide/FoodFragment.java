@@ -27,10 +27,10 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Boojum", "6-10 Kevin Street Lower, Dublin 8", R.drawable.normie_central));
-        locations.add(new Location("Bunsen", "36 Wexford St, Dublin 2", R.drawable.normie_central));
-        locations.add(new Location("Zambrero", "The Parnell Centre, Parnell St, Rotunda, Dublin 1", R.drawable.normie_central));
-        locations.add(new Location("Nando's", "12 St Andrew's St, Dublin 2", R.drawable.normie_central));
+        locations.add(new Location(getString(R.string.food1name), getString(R.string.food1address), R.drawable.boojum));
+        locations.add(new Location(getString(R.string.food2name), getString(R.string.food2address), R.drawable.bunsen));
+        locations.add(new Location(getString(R.string.food3name), getString(R.string.food3address), R.drawable.zambrero));
+        locations.add(new Location(getString(R.string.food4name), getString(R.string.food4address), R.drawable.nandos));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_food);
 

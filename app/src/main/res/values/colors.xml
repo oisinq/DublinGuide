@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#005005</color>
     <color name="colorAccent">#f57c00</color>
 
-    <color name="category_pubs">#8800A0</color>
-    <color name="category_food">#1a30d2</color>
-    <color name="category_sights">#10cce9</color>
-    <color name="category_parks">#ea6f11</color>
+    <color name="category_pubs">#ad1457</color>
+    <color name="category_food">#6a1b9a</color>
+    <color name="category_sights">#1a30d2</color>
+    <color name="category_parks">#00695c</color>
 </resources>
